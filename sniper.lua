@@ -15,7 +15,7 @@ Settings.blacklistedEvents =  {"Breakables_Ping", "Breakables_Created", "AutoCli
 Settings.TPedLootbags = {}
 
 local UI = UILib:CreateUI()
-UI:SetScale(1.75)
+UI:SetScale(1)
 
 local Tab = UI:CreateTab("Rune | Web")
 Tab:Label("Rune", {Color=Color3.fromRGB(0,155,255), Allignment=Enum.TextXAlignment.Center})
